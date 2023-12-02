@@ -1,0 +1,47 @@
+.profile {
+  width: 350px;
+  border: 1px black solid;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.quantity {
+  font-size: 32px;
+  font-weight: 600;
+}

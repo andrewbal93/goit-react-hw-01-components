@@ -17,7 +17,6 @@ th {
 
 tbody > tr > td {
   text-align: center;
-  /* background-color: lightcyan; */
 }
 
 tbody tr:nth-child(evenc) {

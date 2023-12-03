@@ -1,0 +1,25 @@
+.transaction-history {
+  table-layout: fixed;
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+thead {
+  background-color: lightblue;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+tbody > tr > td {
+  text-align: center;
+  /* background-color: lightcyan; */
+}
+
+tbody tr:nth-child(evenc) {
+  background-color: lightcyan;
+}

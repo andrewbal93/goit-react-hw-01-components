@@ -18,7 +18,6 @@ export default function TransactionHistory({ transactions }) {
           ))}
         </tbody>
       </table>
-      ;
     </div>
   );
 }
